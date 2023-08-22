@@ -1,1 +1,1 @@
-#base "huditemeffectmeter_demoman.res"
+#base "counter/counter.res"

@@ -1,10 +1,23 @@
-#base "huditemeffectmeter_demoman.res"
+#base "counter/counter.res"
 
-"Resource/UI/HudItemEffectMeter_Organs.res"
+"."
 {
-	HudItemEffectMeter
+	"Icon"
 	{
-		"xpos"			"r202"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Icon"
+		"pin_to_sibling" "ItemEffectMeterCount"
+		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/organ"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"0"		
 	}
 }
