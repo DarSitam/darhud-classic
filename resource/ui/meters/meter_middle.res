@@ -45,10 +45,10 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"5"
-		"ypos"					"4"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"60"
-		"tall"					"7"
+		"tall"					"5"
 		"wide_minmode"			"60"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -59,7 +59,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultSmall"
 		"disabledfgcolor2_override" "Black"
 	}
 
