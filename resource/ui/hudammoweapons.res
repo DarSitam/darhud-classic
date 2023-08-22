@@ -16,9 +16,7 @@
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -36,9 +34,7 @@
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
 	"AmmoInClip"
 	{
@@ -84,8 +80,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"60"
 		"xpos_minmode"	"66"
@@ -105,8 +99,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -126,8 +118,8 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"0"
-		"ypos"			"2"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"84"
 		"wide_lodef"	"83"
@@ -135,7 +127,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"
+		"textAlignment"	"south"
 		"labelText"		"%Ammo%"
 	}
 	"AmmoNoClipShadow"
@@ -151,7 +143,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"
+		"textAlignment"	"south"
 		"labelText"		"%Ammo%"
 		"pin_to_sibling"	"AmmoNoClip"
 
