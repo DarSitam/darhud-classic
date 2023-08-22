@@ -67,5 +67,27 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
+	}	
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"30"
+		"tall"					"25"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontMediumSmall"
+		"fgcolor"	"Black"
 	}
 }
